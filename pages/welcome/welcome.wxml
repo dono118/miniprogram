@@ -1,7 +1,7 @@
 <!--pages/welcome/welcome.wxml-->
 <view class="container">
 	<image class="avatar" src="../images/avatar/avatar-1.png"></image>
-	<text class="motto">Hello, 小程序</text>
+	<text class="motto">Hello, Unicorn</text>
 	<view class="journey-container" catchtap="onTapJump">
 		<text class="journey">开启小程序之旅</text>
 	</view>
