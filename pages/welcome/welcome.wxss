@@ -1,0 +1,40 @@
+/* pages/welcome/welcome.wxss */
+page{
+  background: azure;
+}
+.container{
+  /* 设置所有组件元素的容器样式 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar{
+  /* 设置图片的大小和样式 */
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 10rpx;
+  border-radius: 100px;/*图片以圆形的方式显示*/
+}
+.motto{
+  /* 设置 "hello,小程序"的样式 */
+  margin-top: 200rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #9F4311;
+}
+.journey-container{
+  /* 设置"开启小程序之旅"外边框样式 */
+  margin-top: 200rpx;
+  border: 1px solid #EA5A3C;
+  width:200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.journey{
+  /* 设置圆角矩形内的文本样式 */
+  font-size: 22rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color:  #EA5A3C
+}
