@@ -1,0 +1,19 @@
+<template name="postItemTpl">
+  <view class="post-container">
+    <view class="post-author-date">
+      <image src="{{item.avatar}}" />
+      <text>{{item.obj.date}}</text>
+    </view>
+    <text class="post-title">{{item.title}}</text>
+    <image class="post-image" src="{{item.postImg}}" mode="aspectFill" />
+    <text class="post-content">{{item.content}}</text>
+    <view class="post-like">
+      <image src="../images/icon/wx_app_collect.png" />
+      <text>{{item.collectNum.array[0]}}</text>
+      <image src="../images/icon/wx_app_message.png"></image>
+      <text>{{item.messageNum}}</text>
+      <image src="../images/icon/wx_app_view.png"></image>
+      <text>{{item.readingNum}}</text>
+    </view>
+  </view>
+</template>
