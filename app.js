@@ -1,10 +1,20 @@
 //app.js
 App({
+  /**
+   * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
+   */
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+
+    var storageData = wx.getStorageSync('postList');
+    if (!storageData) {
+      wx.clearStorageSync();
+      var objData = require("data/data.js");
+      wx.setStorageSync('postList', objData.postDataList);
+    }
 
     // 登录
     wx.login({

@@ -42,6 +42,4 @@ var postList = [{
   }
 ]
 
-module.exports = {
-  postDataList: postList
-}
+export const postDataList = postList

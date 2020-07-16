@@ -1,5 +1,5 @@
 // pages/post/post.js
-var objData = require("../../data/data.js");
+import { _DBPost as DBPost } from "../../db/DBPost.js";
 
 Page({
 
@@ -13,10 +13,11 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function () {
+    var dbPost = new DBPost();
     
     this.setData({
-      postDataList: objData.postDataList
+      postDataList: dbPost.getAllPostData(),
     })
   },
 
