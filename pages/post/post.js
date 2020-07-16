@@ -1,5 +1,7 @@
 // pages/post/post.js
-import { _DBPost as DBPost } from "../../db/DBPost.js";
+import {
+  DBPost
+} from "../../db/DBPost.js";
 
 Page({
 
@@ -7,7 +9,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+
   },
 
   /**
@@ -15,7 +17,7 @@ Page({
    */
   onLoad: function () {
     var dbPost = new DBPost();
-    
+
     this.setData({
       postDataList: dbPost.getAllPostData(),
     })
