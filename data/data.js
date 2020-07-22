@@ -9,6 +9,7 @@ var postList = [{
     },
     messageNum: 56,
     readingNum: 23,
+    postId: 1,
   },
   {
     date: "Jan 31 2019",
@@ -21,6 +22,7 @@ var postList = [{
     },
     messageNum: 234,
     readingNum: 58,
+    postId: 2,
   },
   {
     date: "May 14 2019",
@@ -33,6 +35,7 @@ var postList = [{
     },
     messageNum: 7896,
     readingNum: 123,
+    postId: 3,
   },
   {
     date: "Apr 23 2019",
@@ -45,6 +48,7 @@ var postList = [{
     },
     messageNum: 243,
     readingNum: 34,
+    postId: 4,
   },
   {
     date: "Apr 24 2019",
@@ -57,6 +61,7 @@ var postList = [{
     },
     messageNum: 24423,
     readingNum: 4234,
+    postId: 5,
   }
 ]
 
