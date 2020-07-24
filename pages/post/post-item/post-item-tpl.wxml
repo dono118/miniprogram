@@ -8,11 +8,11 @@
     <image class="post-image" src="{{postImg}}" mode="aspectFill" />
     <text class="post-content">{{content}}</text>
     <view class="post-like">
-      <image src="../images/icon/wx_app_collect.png" />
+      <image src="/images/icon/wx_app_collect.png" />
       <text>{{collectNum.array[0]}}</text>
-      <image src="../images/icon/wx_app_message.png"></image>
+      <image src="/images/icon/wx_app_message.png"></image>
       <text>{{messageNum}}</text>
-      <image src="../images/icon/wx_app_view.png"></image>
+      <image src="/images/icon/wx_app_view.png"></image>
       <text>{{readingNum}}</text>
     </view>
   </view>

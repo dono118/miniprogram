@@ -4,13 +4,13 @@
 <view>
 	<swiper indicator-dots="true" autoplay="true" interval="5000" circular="true">
 		<swiper-item>
-			<image src="../images/post/post-1.jpg" />
+			<image src="/images/post/post-1.jpg" />
 		</swiper-item>
 		<swiper-item>
-			<image src="../images/post/post-2.jpg" />
+			<image src="/images/post/post-2.jpg" />
 		</swiper-item>
 		<swiper-item>
-			<image src="../images/post/post-3.jpg" />
+			<image src="/images/post/post-3.jpg" />
 		</swiper-item>
 	</swiper>
 
